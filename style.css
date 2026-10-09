@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    background-color: rgb(239, 228, 159);
+    width: 100%;
+    max-width: 480px;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0, 0, 0.08);
+
+}
+.container{
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 480px;
+    padding: 24px;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+form{
+    display: flex;
+    gap: 8px;
+
+}
+input{
+    flex: 1;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid#ccc;
+}
+button{
+    padding: 12px 16px ;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(207, 80, 84);
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #2c58b3;
+    
+}
+.aviso{
+    color: #c62828;
+    font-size: 16px;
+    min-height: 20px;
+    margin-top: 8px;
+
+}
+.contador{
+    color: #555;
+    font-size: 14px;
+    margin: 8px 0 12px;
+
+
+}
+ul{
+    list-style: none;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #f7f8fa;
+    border-radius: 8px;
+    cursor: pointer;
+}
+li.concluida span{
+    text-decoration: line-through;
+    color: #999;
+
+}
+.btn-remover{
+    background-color: #e53935;
+    padding: 6px 10px;
+    font-size: 14px;
+
+    
+}
+.btn-remover:hover{
+    background-color: #501313;
+
+}
+.vazio{
+    text-align: center;
+    color: #888;
+    padding: 20px 0;
+
+}
+.escondido{
+    display: none;
+}
